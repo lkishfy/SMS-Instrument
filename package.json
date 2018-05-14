@@ -1,0 +1,19 @@
+{
+  "name": "sms_story_instrument",
+  "version": "1.0.0",
+  "description": "twilio and node osc to reply to text messages ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "lou kishfy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "node-osc": "^2.1.0",
+    "nodemon": "^1.17.4",
+    "twilio": "^3.17.0"
+  }
+}
