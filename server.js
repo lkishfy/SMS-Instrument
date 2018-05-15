@@ -88,8 +88,8 @@ app.post('/sms', (req, res) => {
   // twilioNumber.calls
   //       .create({
   //          url: 'http://demo.twilio.com/docs/voice.xml',
-  //          from: '+16162130709',
-  //          to: '+14014407894'
+  //          from: '',
+  //          to: ''
   //        })
   //       .then(call => console.log(call.sid))
   //       .done();
